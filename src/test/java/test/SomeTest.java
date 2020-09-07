@@ -30,26 +30,32 @@ public class SomeTest extends Base {
 
     @Test public void test1() {
         run();
+	System.out.println("Factorial of 1"+factorial(1));
     }
 
     @Test public void test2() {
         run();
+	System.out.println("Factorial of 2"+factorial(2));
     }
 
     @Test public void test3() {
         run();
+	System.out.println("Factorial of 3"+factorial(3));
     }
 
     @Test public void test4() {
         run();
+	System.out.println("Factorial of 4"+factorial(4));
     }
 
     @Test public void test5() {
         run();
+	System.out.println("Factorial of 5"+factorial(5));
     }
 
     @Test public void test6() {
         run();
+	System.out.println("Factorial of 6"+factorial(6));
     }
 
 }

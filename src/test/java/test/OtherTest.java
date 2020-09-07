@@ -30,6 +30,6 @@ public class OtherTest extends Base {
 
     @Test public void mytest() {
         run();
+	System.out.println("Factorial of 0"+factorial(0));
     }
-
 }
